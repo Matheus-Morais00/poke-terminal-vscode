@@ -1,71 +1,41 @@
-# pokemon-terminal README
+# pokemon-terminal
 
-This is the README for your extension "pokemon-terminal". After writing up a brief description, we recommend including the following sections.
+Extensão para Visual Studio Code que mostra um Pokémon aleatório sempre que um terminal é aberto. A imagem oficial do Pokémon é exibida em uma webview, enquanto o terminal exibe o nome e os tipos.
 
-## Features
+## Funcionalidades
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* Gera um Pokémon aleatório usando a API da PokéAPI.
+* Mostra o nome e tipos do Pokémon no terminal.
+* Exibe a imagem oficial do Pokémon em uma webview do VS Code.
+* Compatível com terminal PowerShell e Webview para exibição de imagem.
 
-For example if there is an image subfolder under your extension project workspace:
+## Uso
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Abra o projeto no VS Code.
+2. Pressione `F5` para iniciar a extensão em uma janela de desenvolvimento.
+3. Abra um terminal na janela de extensão.
+4. A extensão abrirá automaticamente uma webview com a imagem do Pokémon gerado.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Requisitos
 
-## Requirements
+* Visual Studio Code versão 1.108.2 ou superior.
+* Conexão com a internet para acessar a PokéAPI.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Desenvolvedor
 
-## Extension Settings
+Feito por Matheus Morais.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Instalação
 
-For example:
+1. Clone o repositório.
+2. Execute `npm install`.
+3. Compile com `npm run compile`.
+4. Use `F5` para rodar em modo de desenvolvimento.
 
-This extension contributes the following settings:
+## Notas
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+A extensão usa a PokéAPI para buscar dados e imagens oficiais dos Pokémon.
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Feito por Matheus Morais.
